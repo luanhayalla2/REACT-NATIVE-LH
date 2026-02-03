@@ -6,6 +6,13 @@ Aplicação mobile desenvolvida em **React Native** com **TypeScript**, integrad
 
 ---
 
+## 🎥 Demonstração do Projeto
+
+📹 **Assista ao vídeo de demonstração:**
+- [Video HAYALLASLZ](./video%20HAYALLASLZ) - Demonstração completa da aplicação em funcionamento
+
+---
+
 ## ✨ Funcionalidades
 
 - ✅ **Autenticação segura** com Firebase
