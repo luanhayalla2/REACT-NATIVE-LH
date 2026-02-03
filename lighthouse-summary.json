@@ -1,0 +1,35 @@
+﻿{
+    "topPerformanceAudits":  [
+                                 {
+                                     "id":  "bootup-time",
+                                     "title":  "JavaScript execution time",
+                                     "score":  null,
+                                     "scoreDisplayMode":  "error",
+                                     "impact":  0,
+                                     "detail":  null
+                                 },
+                                 {
+                                     "id":  "mainthread-work-breakdown",
+                                     "title":  "Minimizes main-thread work",
+                                     "score":  null,
+                                     "scoreDisplayMode":  "error",
+                                     "impact":  0,
+                                     "detail":  null
+                                 },
+                                 {
+                                     "id":  "critical-request-chains",
+                                     "title":  "Avoid chaining critical requests",
+                                     "score":  null,
+                                     "scoreDisplayMode":  "error",
+                                     "impact":  0,
+                                     "detail":  null
+                                 }
+                             ],
+    "categories":  {
+                       "accessibility":  null,
+                       "performance":  null,
+                       "best-practices":  null,
+                       "seo":  null,
+                       "pwa":  null
+                   }
+}

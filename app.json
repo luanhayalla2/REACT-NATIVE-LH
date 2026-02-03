@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "MeuPrimeiroApp",
+    "slug": "meuprimeiroapp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/logo.png",
+    "splash": {
+      "image": "./assets/logo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "platforms": ["ios", "android", "web"],
+    "ios": {
+      "bundleIdentifier": "com.example.meuprimeiroapp"
+    },
+    "android": {
+      "package": "com.example.meuprimeiroapp",
+      "versionCode": 1
+    },
+  "web": {
+    "bundler": "webpack"
+  }
+  }
+}
