@@ -73,7 +73,7 @@ Após gerar o GIF com `scripts\generate_gif.ps1`, o arquivo será salvo em `vide
 
 ![Slideshow](./videos/screenshots-slideshow.gif)
 
-> Observação: neste repositório o GIF ainda não foi gerado — execute o script localmente e commite o arquivo para que a imagem apareça aqui.
+O GIF foi gerado e está disponível no repositório em `videos/screenshots-slideshow.gif`.
 
 
 - ✅ **Autenticação segura** com Firebase
