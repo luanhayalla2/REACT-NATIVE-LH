@@ -1,4 +1,6 @@
-Param()
+Param(
+    [switch]$Commit
+)
 
 # Gera um GIF a partir das imagens listadas em gif_list.txt
 # Requisitos: ffmpeg disponível no PATH, PowerShell
@@ -37,11 +39,20 @@ if ($LASTEXITCODE -ne 0) {
     exit $LASTEXITCODE
 }
 
+
 Write-Host "GIF gerado com sucesso: $outGif" -ForegroundColor Green
 
-# Opcional: adicionar ao git, commitar e push (descomente se desejar)
-# git add "$outGif"
-# git commit -m "Adiciona GIF de slideshow das screenshots"
-# git push origin main
+if ($Commit) {
+    Write-Host "Adicionando o GIF ao git, fazendo commit e push..."
+    try {
+        & git add "$outGif"
+        & git commit -m "Adiciona GIF slideshow das screenshots"
+        & git push origin main
+        Write-Host "GIF adicionado e enviado ao remoto com sucesso." -ForegroundColor Green
+    } catch {
+        Write-Error "Falha ao commitar/push: $_"
+        exit 1
+    }
+}
 
 exit 0
