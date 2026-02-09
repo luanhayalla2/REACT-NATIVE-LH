@@ -34,46 +34,15 @@ Principais telas do aplicativo (clique na imagem para abrir em tamanho maior):
 |-----------------|---------------------|-----------------|
 | [![REDEFINIR SENHA](./screenshots/redefinir-senha.png)](./screenshots/redefinir-senha.png) | [![USUARIOS CADASTRADOS](./screenshots/usuarios-cadastrados.png)](./screenshots/usuarios-cadastrados.png) | [![EDITAR USUARIO](./screenshots/editar-usuario.png)](./screenshots/editar-usuario.png) |
 
----
+### 🎬 GIF Slideshow das Telas
 
-## 🛠️ Gerar GIF a partir das screenshots (opcional)
-
-Se você deseja um GIF/slide automático das telas do app, siga estes passos locais:
-
-- Instale o `ffmpeg` (ex.: via Chocolatey no Windows):
-
-```powershell
-choco install ffmpeg -y
-```
-
-- Garanta que o arquivo `gif_list.txt` na raiz do projeto contém a lista e ordem das imagens (já incluído).
-- Execute o script PowerShell que gera o GIF otimizado e salva em `videos/screenshots-slideshow.gif`:
-
-```powershell
-powershell -ExecutionPolicy Bypass -File scripts\generate_gif.ps1
-```
-
-O script irá gerar uma paleta e criar um GIF otimizado. Se quiser, após gerar o GIF você pode commitar e fazer push manualmente:
-
-```powershell
-git add videos/screenshots-slideshow.gif
-git commit -m "Adiciona GIF slideshow das screenshots"
-git push origin main
-```
-
-Observação: este passo deve ser executado localmente (o ambiente de CI/IDE pode não ter `ffmpeg` instalado). Se quiser, eu posso gerar o GIF aqui quando o `ffmpeg` estiver disponível.
-
-## ✨ Funcionalidades
-
----
-
-## 🔗 Link do GIF (após geração)
-
-Após gerar o GIF com `scripts\generate_gif.ps1`, o arquivo será salvo em `videos/screenshots-slideshow.gif`. Quando o GIF for gerado e commitado, ele será exibido abaixo:
+Veja um GIF passando por todas as telas do aplicativo:
 
 ![Slideshow](./videos/screenshots-slideshow.gif)
 
-O GIF foi gerado e está disponível no repositório em `videos/screenshots-slideshow.gif`.
+---
+
+## ✨ Funcionalidades
 
 
 - ✅ **Autenticação segura** com Firebase
