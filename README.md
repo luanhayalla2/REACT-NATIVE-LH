@@ -10,17 +10,17 @@ Aplicação mobile desenvolvida em **React Native** com **TypeScript**, integrad
 
 ### 📹 Assista ao Vídeo de Demonstração
 
-<a href="./videos/video-HAYALLASLZ.webm" target="_blank">
+<a href="./videos/Showcase App Hayallas v3 (Reordenado).mp4" target="_blank">
   <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 40px; border-radius: 12px; text-align: center; cursor: pointer; margin: 20px 0;">
     <p style="font-size: 48px; margin: 0;">▶️</p>
-    <p style="color: white; font-size: 18px; font-weight: bold; margin: 10px 0;">CLIQUE PARA ASSISTIR</p>
-    <p style="color: rgba(255,255,255,0.9); font-size: 14px;">Video HAYALLASLZ - Demonstração Completa</p>
+    <p style="color: white; font-size: 18px; font-weight: bold; margin: 10px 0;">CLIQUE PARA VISUALIZAR</p>
+    <p style="color: rgba(255,255,255,0.9); font-size: 14px;">Vídeo HAYALLASLZ - Demonstração Completa</p>
   </div>
 </a>
 
-**Duração:** Vídeo completo da aplicação em funcionamento  
-**Formato:** WebM (compatível com navegadores modernos)  
-**Acesso:** [Video HAYALLASLZ](./videos/video-HAYALLASLZ.webm)
+**Duração:** Vídeo/Animação da aplicação em funcionamento  
+**Formato:** MP4 (compatível com navegadores modernos)  
+**Acesso:** [Vídeo HAYALLASLZ](./videos/Showcase App Hayallas v3 (Reordenado).mp4)
 
 ### 📸 Screenshots do App
 
@@ -34,7 +34,7 @@ Principais telas do aplicativo (clique na imagem para abrir em tamanho maior):
 |-----------------|---------------------|-----------------|
 | [![REDEFINIR SENHA](./screenshots/REDEFINIR%20SENHA.png)](./screenshots/REDEFINIR%20SENHA.png) | [![USUARIOS CADASTRADOS](./screenshots/USUARIOS%20CADASTRADOS.png)](./screenshots/USUARIOS%20CADASTRADOS.png) | [![EDITAR USUARIO](./screenshots/editar%20usuario.png)](./screenshots/editar%20usuario.png) |
 
-Veja também o vídeo de demonstração: [Video HAYALLASLZ](./videos/video-HAYALLASLZ.webm)
+Veja também o vídeo de demonstração: [Vídeo HAYALLASLZ](./videos/Showcase App Hayallas v3 (Reordenado).mp4)
 
 ---
 
