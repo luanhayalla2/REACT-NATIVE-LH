@@ -13,13 +13,17 @@ Aplicação mobile desenvolvida em **React Native** com **TypeScript**, integrad
 
 ### 📸 Screenshots do App
 
+Principais telas do aplicativo (clique na imagem para abrir em tamanho maior):
+
 | Tela de Login | Cadastro | Recuperar Senha |
 |---------------|----------|-----------------|
-| ![Login Screen](./screenshots/login.svg) | ![Register Screen](./screenshots/register.svg) | ![Forgot Password](./screenshots/forgot-password.svg) |
+| [![](./screenshots/login.svg)](./screenshots/login.svg) | [![](./screenshots/register.svg)](./screenshots/register.svg) | [![](./screenshots/forgot-password.svg)](./screenshots/forgot-password.svg) |
 
-| Listagem de Usuários | Tema Claro/Escuro |
-|---------------------|------------------|
-| ![List Screen](./screenshots/list.svg) | ![Dark Mode](./screenshots/theme.svg) |
+| Listagem de Usuários | Tema Claro / Escuro |
+|---------------------|---------------------|
+| [![](./screenshots/list.svg)](./screenshots/list.svg) | [![](./screenshots/theme.svg)](./screenshots/theme.svg) |
+
+Veja também o vídeo de demonstração: [Video HAYALLASLZ](./videos/video-HAYALLASLZ.webm)
 
 ---
 
