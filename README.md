@@ -8,8 +8,19 @@ Aplicação mobile desenvolvida em **React Native** com **TypeScript**, integrad
 
 ## 🎥 Demonstração do Projeto
 
-📹 **Assista ao vídeo de demonstração:**
-- [Video HAYALLASLZ](./videos/video-HAYALLASLZ.webm) - Demonstração completa da aplicação em funcionamento
+### 📹 Assista ao Vídeo de Demonstração
+
+<a href="./videos/video-HAYALLASLZ.webm" target="_blank">
+  <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 40px; border-radius: 12px; text-align: center; cursor: pointer; margin: 20px 0;">
+    <p style="font-size: 48px; margin: 0;">▶️</p>
+    <p style="color: white; font-size: 18px; font-weight: bold; margin: 10px 0;">CLIQUE PARA ASSISTIR</p>
+    <p style="color: rgba(255,255,255,0.9); font-size: 14px;">Video HAYALLASLZ - Demonstração Completa</p>
+  </div>
+</a>
+
+**Duração:** Vídeo completo da aplicação em funcionamento  
+**Formato:** WebM (compatível com navegadores modernos)  
+**Acesso:** [Video HAYALLASLZ](./videos/video-HAYALLASLZ.webm)
 
 ### 📸 Screenshots do App
 
