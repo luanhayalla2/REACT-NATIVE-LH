@@ -1,0 +1,13 @@
+file 'screenshots/login.png'
+duration 1
+file 'screenshots/home.png'
+duration 1
+file 'screenshots/criar-conta.png'
+duration 1
+file 'screenshots/usuarios-cadastrados.png'
+duration 1
+file 'screenshots/editar-usuario.png'
+duration 1
+file 'screenshots/redefinir-senha.png'
+duration 1
+file 'screenshots/redefinir-senha.png'
