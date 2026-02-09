@@ -10,7 +10,7 @@ Aplicação mobile desenvolvida em **React Native** com **TypeScript**, integrad
 
 ### 📹 Assista ao Vídeo de Demonstração
 
-<a href="./videos/Showcase App Hayallas v3 (Reordenado).mp4" target="_blank">
+<a href="./videos/showcase-app-hayallas-v3-reordenado.mp4" target="_blank">
   <div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 40px; border-radius: 12px; text-align: center; cursor: pointer; margin: 20px 0;">
     <p style="font-size: 48px; margin: 0;">▶️</p>
     <p style="color: white; font-size: 18px; font-weight: bold; margin: 10px 0;">CLIQUE PARA VISUALIZAR</p>
@@ -20,7 +20,7 @@ Aplicação mobile desenvolvida em **React Native** com **TypeScript**, integrad
 
 **Duração:** Vídeo/Animação da aplicação em funcionamento  
 **Formato:** MP4 (compatível com navegadores modernos)  
-**Acesso:** [Vídeo HAYALLASLZ](./videos/Showcase App Hayallas v3 (Reordenado).mp4)
+**Acesso:** [Vídeo HAYALLASLZ](./videos/showcase-app-hayallas-v3-reordenado.mp4)
 
 ### 📸 Screenshots do App
 
@@ -28,13 +28,13 @@ Principais telas do aplicativo (clique na imagem para abrir em tamanho maior):
 
 | Tela de Login | Tela Home | Cadastro |
 |---------------|----------|----------|
-| [![LOGIN](./screenshots/LOGIN.png)](./screenshots/LOGIN.png) | [![HOME](./screenshots/HOME.png)](./screenshots/HOME.png) | [![CRIAR CONTA](./screenshots/CRIAR%20CONTA.png)](./screenshots/CRIAR%20CONTA.png) |
+| [![LOGIN](./screenshots/login.png)](./screenshots/login.png) | [![HOME](./screenshots/home.png)](./screenshots/home.png) | [![CRIAR CONTA](./screenshots/criar-conta.png)](./screenshots/criar-conta.png) |
 
 | Recuperar Senha | Listagem de Usuários | Editar Usuário |
 |-----------------|---------------------|-----------------|
-| [![REDEFINIR SENHA](./screenshots/REDEFINIR%20SENHA.png)](./screenshots/REDEFINIR%20SENHA.png) | [![USUARIOS CADASTRADOS](./screenshots/USUARIOS%20CADASTRADOS.png)](./screenshots/USUARIOS%20CADASTRADOS.png) | [![EDITAR USUARIO](./screenshots/editar%20usuario.png)](./screenshots/editar%20usuario.png) |
+| [![REDEFINIR SENHA](./screenshots/redefinir-senha.png)](./screenshots/redefinir-senha.png) | [![USUARIOS CADASTRADOS](./screenshots/usuarios-cadastrados.png)](./screenshots/usuarios-cadastrados.png) | [![EDITAR USUARIO](./screenshots/editar-usuario.png)](./screenshots/editar-usuario.png) |
 
-Veja também o vídeo de demonstração: [Vídeo HAYALLASLZ](./videos/Showcase App Hayallas v3 (Reordenado).mp4)
+Veja também o vídeo de demonstração: [Vídeo HAYALLASLZ](./videos/showcase-app-hayallas-v3-reordenado.mp4)
 
 ---
 
