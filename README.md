@@ -65,6 +65,17 @@ Observação: este passo deve ser executado localmente (o ambiente de CI/IDE pod
 
 ## ✨ Funcionalidades
 
+---
+
+## 🔗 Link do GIF (após geração)
+
+Após gerar o GIF com `scripts\generate_gif.ps1`, o arquivo será salvo em `videos/screenshots-slideshow.gif`. Quando o GIF for gerado e commitado, ele será exibido abaixo:
+
+![Slideshow](./videos/screenshots-slideshow.gif)
+
+> Observação: neste repositório o GIF ainda não foi gerado — execute o script localmente e commite o arquivo para que a imagem apareça aqui.
+
+
 - ✅ **Autenticação segura** com Firebase
 - ✅ **Cadastro de usuários** com validação em tempo real
 - ✅ **Operações CRUD completas** (Create, Read, Update, Delete)
