@@ -220,6 +220,28 @@ export default function HomeScreen({ navigation }: any) {
               <Text style={[styles.buttonSubtitle, { color: themeColors.textLight }]}>{testLoading ? 'Conectando...' : 'Validar Firestore'}</Text>
             </View>
           </TouchableOpacity>
+
+          {/* Botão de Vídeo de Demonstração */}
+          <TouchableOpacity
+            style={[
+              styles.button,
+              styles.buttonVideo,
+              { backgroundColor: themeColors.surface, borderLeftColor: '#EC4899' },
+              isPressed === 'video' && styles.buttonPressed,
+            ]}
+            onPress={() => navigation.navigate('VideoPlayer')}
+            onPressIn={() => handlePressIn('video')}
+            onPressOut={handlePressOut}
+            activeOpacity={0.7}
+          >
+            <View style={[styles.buttonIconWrapper, { backgroundColor: themeColors.background }]}> 
+              <MaterialCommunityIcons name="play-circle" size={32} color="#EC4899" />
+            </View>
+            <View style={styles.buttonContent}>
+              <Text style={[styles.buttonTitle, { color: themeColors.text }]}>Ver Demonstração</Text>
+              <Text style={[styles.buttonSubtitle, { color: themeColors.textLight }]}>Vídeo do aplicativo</Text>
+            </View>
+          </TouchableOpacity>
         </View>
       </ScrollView>
     </SafeAreaView>
@@ -295,6 +317,9 @@ const styles = StyleSheet.create({
     borderLeftWidth: 4,
   },
   buttonTest: {
+    borderLeftWidth: 4,
+  },
+  buttonVideo: {
     borderLeftWidth: 4,
   },
   buttonIconWrapper: {
