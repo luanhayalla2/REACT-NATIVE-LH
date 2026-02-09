@@ -9,7 +9,17 @@ Aplicação mobile desenvolvida em **React Native** com **TypeScript**, integrad
 ## 🎥 Demonstração do Projeto
 
 📹 **Assista ao vídeo de demonstração:**
-- [Video HAYALLASLZ](./video%20HAYALLASLZ) - Demonstração completa da aplicação em funcionamento
+- [Video HAYALLASLZ](./videos/video-HAYALLASLZ.webm) - Demonstração completa da aplicação em funcionamento
+
+### 📸 Screenshots do App
+
+| Tela de Login | Cadastro | Recuperar Senha |
+|---------------|----------|-----------------|
+| ![Login Screen](./screenshots/login.svg) | ![Register Screen](./screenshots/register.svg) | ![Forgot Password](./screenshots/forgot-password.svg) |
+
+| Listagem de Usuários | Tema Claro/Escuro |
+|---------------------|------------------|
+| ![List Screen](./screenshots/list.svg) | ![Dark Mode](./screenshots/theme.svg) |
 
 ---
 
@@ -24,6 +34,7 @@ Aplicação mobile desenvolvida em **React Native** com **TypeScript**, integrad
 - ✅ **Type safety** completo com TypeScript
 - ✅ **Tratamento de erros** robusto
 - ✅ **Loading states** e feedback do usuário
+- ✅ **Recuperação de senha** via email com Firebase
 
 ---
 
@@ -116,6 +127,7 @@ src/
 ├── screens/
 │   ├── LoginScreen.tsx            # Tela de login
 │   ├── RegisterScreen.tsx         # Cadastro de usuários
+│   ├── ForgotPasswordScreen.tsx   # Recuperação de senha
 │   ├── ListScreen.tsx             # Listagem de usuários
 │   ├── HomeScreen.tsx             # Tela inicial
 │   └── ProfileScreen.tsx          # Perfil do usuário
@@ -183,6 +195,23 @@ import { queryByField } from './src/services/firestoreService';
 
 const usersByEmail = await queryByField('users', 'email', 'joao@email.com');
 ```
+
+### Recuperar Senha
+```typescript
+import { sendPasswordResetEmail } from 'firebase/auth';
+import { auth } from './src/config/firebaseConfig';
+
+// Enviar email de recuperação de senha
+await sendPasswordResetEmail(auth, 'usuario@email.com');
+```
+
+Uso na tela:
+1. Usuário clica em "Esqueci minha senha" na tela de Login
+2. Digita seu email cadastrado
+3. Clica em "Enviar Link de Redefinição"
+4. Recebe email com link seguro do Firebase
+5. Segue o link e define uma nova senha
+6. Volta ao Login com a nova senha
 
 ---
 
@@ -297,12 +326,13 @@ npm audit fix
 
 ## 🎓 Próximos Passos
 
-1. **Configurar Autenticação:**
-   - Implementar login com email/senha
-   - Adicionar login social (Google, Apple)
+1. **Configurar Autenticação:** ✅
+   - ✅ Implementar login com email/senha
+   - ✅ Implementar recuperação de senha
+   - [ ] Adicionar login social (Google, Apple)
 
 2. **Melhorar UX:**
-   - Adicionar temas (dark/light mode)
+   - Adicionar temas (dark/light mode) - ✅ Implementado
    - Implementar animações
    - Melhorar feedback do usuário
 

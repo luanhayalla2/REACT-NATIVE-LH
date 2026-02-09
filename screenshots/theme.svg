@@ -1,0 +1,41 @@
+<svg viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Light mode (left side) -->
+  <rect width="400" height="400" fill="#ffffff" stroke="#333" stroke-width="2"/>
+  
+  <!-- Light mode header -->
+  <rect width="400" height="50" fill="#6200EE"/>
+  <text x="200" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#fff">Tema Claro</text>
+  
+  <!-- Light mode content -->
+  <circle cx="200" cy="100" r="30" fill="#6200EE" opacity="0.2"/>
+  <text x="200" y="160" text-anchor="middle" font-size="18" font-weight="bold" fill="#333">Login</text>
+  <text x="200" y="190" text-anchor="middle" font-size="12" fill="#666">Acesse sua conta</text>
+  
+  <!-- Light mode input -->
+  <rect x="40" y="210" width="320" height="40" rx="6" fill="none" stroke="#ddd" stroke-width="2"/>
+  <text x="60" y="235" font-size="12" fill="#999">seu@email.com</text>
+  
+  <!-- Light mode button -->
+  <rect x="40" y="270" width="320" height="40" rx="6" fill="#6200EE"/>
+  <text x="200" y="295" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">Entrar</text>
+  
+  <!-- Dark mode (right side) -->
+  <rect x="400" width="400" height="400" fill="#1a1a1a" stroke="#333" stroke-width="2"/>
+  
+  <!-- Dark mode header -->
+  <rect x="400" width="400" height="50" fill="#6200EE"/>
+  <text x="600" y="32" text-anchor="middle" font-size="16" font-weight="bold" fill="#fff">Tema Escuro</text>
+  
+  <!-- Dark mode content -->
+  <circle cx="600" cy="100" r="30" fill="#6200EE" opacity="0.3"/>
+  <text x="600" y="160" text-anchor="middle" font-size="18" font-weight="bold" fill="#fff">Login</text>
+  <text x="600" y="190" text-anchor="middle" font-size="12" fill="#aaa">Acesse sua conta</text>
+  
+  <!-- Dark mode input -->
+  <rect x="440" y="210" width="320" height="40" rx="6" fill="none" stroke="#444" stroke-width="2"/>
+  <text x="460" y="235" font-size="12" fill="#666">seu@email.com</text>
+  
+  <!-- Dark mode button -->
+  <rect x="440" y="270" width="320" height="40" rx="6" fill="#6200EE"/>
+  <text x="600" y="295" text-anchor="middle" font-size="14" font-weight="bold" fill="#fff">Entrar</text>
+</svg>
