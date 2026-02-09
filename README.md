@@ -17,11 +17,11 @@ Principais telas do aplicativo (clique na imagem para abrir em tamanho maior):
 
 | Tela de Login | Cadastro | Recuperar Senha |
 |---------------|----------|-----------------|
-| [![](./screenshots/login.svg)](./screenshots/login.svg) | [![](./screenshots/register.svg)](./screenshots/register.svg) | [![](./screenshots/forgot-password.svg)](./screenshots/forgot-password.svg) |
+| [![HOME](./screenshots/HOME.png)](./screenshots/HOME.png) | [![CRIAR CONTA](./screenshots/CRIAR%20CONTA.png)](./screenshots/CRIAR%20CONTA.png) | [![REDEFINIR SENHA](./screenshots/REDEFINIR%20SENHA.png)](./screenshots/REDEFINIR%20SENHA.png) |
 
-| Listagem de Usuários | Tema Claro / Escuro |
+| Listagem de Usuários | Editar Usuário |
 |---------------------|---------------------|
-| [![](./screenshots/list.svg)](./screenshots/list.svg) | [![](./screenshots/theme.svg)](./screenshots/theme.svg) |
+| [![USUARIOS CADASTRADOS](./screenshots/USUARIOS%20CADASTRADOS.png)](./screenshots/USUARIOS%20CADASTRADOS.png) | [![EDITAR USUARIO](./screenshots/editar%20usuario.png)](./screenshots/editar%20usuario.png) |
 
 Veja também o vídeo de demonstração: [Video HAYALLASLZ](./videos/video-HAYALLASLZ.webm)
 
