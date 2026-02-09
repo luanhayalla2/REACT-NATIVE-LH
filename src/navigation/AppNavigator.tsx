@@ -7,6 +7,7 @@ import ListScreen from '../screens/ListScreen';
 import LoginScreen from '../screens/LoginScreen';
 import EditScreen from '../screens/EditScreen';
 import ForgotPasswordScreen from '../screens/ForgotPasswordScreen';
+import VideoPlayerScreen from '../screens/VideoPlayerScreen';
 
 const Stack = createNativeStackNavigator();
 
@@ -53,6 +54,13 @@ export default function AppNavigator() {
         component={ForgotPasswordScreen}
         options={{
           headerTitle: 'Recuperar Senha',
+        }}
+      />
+      <Stack.Screen 
+        name="VideoPlayer"
+        component={VideoPlayerScreen}
+        options={{
+          headerTitle: 'Vídeo de Demonstração',
         }}
       />
       <Stack.Screen 
