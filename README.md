@@ -10,7 +10,7 @@ Aplicação mobile desenvolvida em **React Native** com **TypeScript**, integrad
 
 ### 🎬 Veja o GIF de Demonstração
 
-![Demo GIF](./videos/screenshots-slideshow.gif)
+<img src="./videos/screenshots-slideshow.gif" width="300" alt="Demo GIF" />
 
 **Duração:** Slideshow animado da aplicação  
 **Formato:** GIF (compatível com todos os navegadores)  
